@@ -4,19 +4,19 @@ The application included 4 pages, which are transaction History, Address, Transf
 
 Enter Frontend foler
 
-''npm install
+```npm install```
 
 To run the frontend.
 
-''npm start
+```npm start```
 
 Enter Backend folder
 
-''npm install
+```npm install```
 
 To start backend
 
-''node Express.js
+```node Express.js```
 
 ## Writer
 Lo Ching Hei
