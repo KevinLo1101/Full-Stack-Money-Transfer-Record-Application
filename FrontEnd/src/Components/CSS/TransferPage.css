@@ -1,0 +1,66 @@
+/* TransferPage.css */
+.transfer-container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.from-to-details {
+  margin: 20px 0;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 20%;
+  padding: 8px;
+  border: 1px solid rgb(231, 15, 15);
+  border-radius: 3px;
+}
+
+button.zoom {
+  width: 5%;
+  padding: 10px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button.zoom:hover {
+  background-color: #005bab;
+  zoom: 110%;
+}
+
+.receipt {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.receipt h1 {
+  color: rgb(25, 46, 103);
+  text-align: left;
+}
+
+.receipt p {
+  margin: 5px 0;
+}

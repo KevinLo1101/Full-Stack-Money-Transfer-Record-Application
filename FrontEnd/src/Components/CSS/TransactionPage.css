@@ -1,0 +1,42 @@
+/* TransactionPage.css */
+.transaction-history {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .transaction-history h2 {
+      width: 90%;
+      font-size: 60px;
+      font-weight: 600;
+      color: transparent;
+      background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+      -webkit-background-clip: text;
+      background-clip: text;    
+      background-size: 200%;
+      background-position: -200%;
+      animation: animated-gradient 2s infinite alternate-reverse;      
+    }
+    @keyframes animated-gradient{
+      to{
+        background-position: 200%;
+      }
+    }
+  
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-list li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Add more styles as needed */
+  
